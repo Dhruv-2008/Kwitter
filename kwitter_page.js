@@ -14,6 +14,24 @@ var firebaseConfig = {
 	user_name = localStorage.getItem("user_name");
 	room_name = localStorage.getItem("room_name");
 
+var SpeechRecognition = window.webkitSpeechRecognition;
+var recognition = new SpeechRecognition();
+
+function start(){
+  document.getElementById("msg").value="";
+  recognition.start();
+}
+
+recognition.onresult = function(event){
+  console.log(event);
+  var msg = event.results[0][0].transcript;
+  console.log(msg);
+  document.getElementById("msg").value=msg;
+}
+
+
+
+
 function send()
 {
   msg = document.getElementById("msg").value;
@@ -65,3 +83,4 @@ localStorage.removeItem("user_name");
 localStorage.removeItem("room_name");
 window.location.replace("index.html");
 }
+
