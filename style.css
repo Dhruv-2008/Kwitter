@@ -74,11 +74,6 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 {
 	width: 80%;
 }
-.input_div_message_page button
-{
-	margin-top: 15px;
-	width: 50%; 
-}
 .color_white
 {
 	color: white
@@ -91,4 +86,20 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 .message_h4
 {
 	padding-left:5px;color:grey;
+}
+#say
+{
+	width: 7%;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 50px;
+	border-radius: 360px;
+	margin-bottom: 15px;
+}
+#voice
+{
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 120px;
+	margin-bottom: 20px;
 }
