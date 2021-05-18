@@ -43,7 +43,8 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 #logout
 {
 	position: fixed;
-	font-size: 20px; float: right;
+	font-size: 20px; 
+	float: right;
 }
 
 
