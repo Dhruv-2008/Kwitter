@@ -33,13 +33,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 	width: 80%;border-radius: 15px;
 }
 
-.crf{
-    text-align: center;
-    line-height: 3;
-    width: 100%;
-    bottom: 0px;
-    position: fixed;
-  }
+
 .room_name
 {
 	cursor: pointer;
