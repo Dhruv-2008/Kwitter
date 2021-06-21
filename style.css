@@ -105,3 +105,13 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 	margin-left: 120px;
 	margin-bottom: 20px;
 }
+
+label {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
