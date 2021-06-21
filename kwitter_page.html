@@ -34,8 +34,10 @@
 	<div class="input_div_message_page">
 	
 		<label>Send:</label>
-			<input type="text" id="msg" class="form-control" placeholder="message">
-			<input type="file" id="actual-btn" hidden/>
+			<input type="text, file" id="msg" class="form-control" placeholder="message">
+			
+<label for="msg">Choose file</label>
+
 	        <button class="btn btn-success" onclick="send()" id="voice">send</button>
 
 			<img id="say" onclick="start()" class="btn speak" src="mic.png">
